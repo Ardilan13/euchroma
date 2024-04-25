@@ -55,3 +55,15 @@ main img {
   height: auto;
   object-fit: fill;
 }
+/* Footer */
+footer {
+  background-color: var(--s1-c);
+  color: var(--b-c);
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
