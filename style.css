@@ -55,6 +55,30 @@ main img {
   height: auto;
   object-fit: fill;
 }
+
+/* Botones */
+#botones {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+#botones a {
+  background-color: var(--p1-c);
+  color: var(--b-c);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#botones a:hover {
+  background-color: var(--p1-c);
+  color: var(--n-c);
+}
+
 /* Footer */
 footer {
   background-color: var(--s1-c);
