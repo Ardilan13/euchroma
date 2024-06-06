@@ -75,7 +75,8 @@ main img {
   margin: 2rem 8rem;
 }
 
-#botones a {
+#botones a,
+.boton {
   background-color: var(--p1-c);
   color: var(--b-c);
   padding: 1rem 2rem;
@@ -85,7 +86,8 @@ main img {
   cursor: pointer;
 }
 
-#botones a:hover {
+#botones a:hover,
+.boton:hover {
   background-color: var(--p1-c);
   color: var(--n-c);
   cursor: pointer;
